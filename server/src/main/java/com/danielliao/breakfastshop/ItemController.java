@@ -1,10 +1,12 @@
 package com.danielliao.breakfastshop;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.*;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class ItemController {
 
@@ -14,8 +16,8 @@ public class ItemController {
         this.repository = repository;
     }
 
-    @GetMapping("/order")
-    public List<Item> order() {
+    @GetMapping("/menu")
+    public List<Item> getMenu() {
         return repository.findAll();
     }
 }
