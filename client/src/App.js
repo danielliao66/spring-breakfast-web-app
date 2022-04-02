@@ -7,7 +7,7 @@ import MenuCard from "./components/MenuCard";
 import OrderCard from "./components/OrderCard";
 import Button from '@mui/material/Button';
 
-const baseURL = "http://localhost:8080";
+const baseURL = "https://spring-breakfast-app.herokuapp.com";
 
 function App() {  
   const [menu, setMenu] = useState([]);
@@ -28,7 +28,6 @@ function App() {
     const response = await fetch(`${baseURL}/orders`, {mode: "cors"});
     const data = await response.json();
     setOrders(data);
-    console.log(data);
   }
 
   const handleNav = (event, newValue) => setPage(newValue)

@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://spring-breakfast-app.vercel.app/")
 @RestController
 public class OrderController {
 
