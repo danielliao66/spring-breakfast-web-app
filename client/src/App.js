@@ -7,7 +7,7 @@ import MenuCard from "./components/MenuCard";
 import OrderCard from "./components/OrderCard";
 import Button from '@mui/material/Button';
 
-const baseURL = "https://spring-breakfast-app.herokuapp.com";
+const baseURL = "https://breakfast-web-app.herokuapp.com/";
 
 function App() {  
   const [menu, setMenu] = useState([]);
