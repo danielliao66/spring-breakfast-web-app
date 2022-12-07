@@ -7,5 +7,4 @@ Information about items in the menu, including names and prices, is stored in a 
 With an interface powered by React, customers can view the menu and make orders accordingly. Orders are sent to the server side and customers can check if their orders are ready or being prepared.
 ### Demo
 You can use the application in the following link: https://yummy-breakfast-app.vercel.app/.  
-For security concerns, database access is made read-only. The connection string for guests can be found [here](https://github.com/danielliao66/spring-breakfast-web-app/blob/main/server/src/main/resources/application.properties).  
-In case Heroku does not support free hosting anymore, one can refer to the "img" folder for screenshots of the application in action.
+For security concerns, database access is made read-only. The connection string for guests can be found [here](https://github.com/danielliao66/spring-breakfast-web-app/blob/main/server/src/main/resources/application.properties).
